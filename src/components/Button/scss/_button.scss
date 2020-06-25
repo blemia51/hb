@@ -4,4 +4,13 @@
   color: white;
   padding: 12px;
   min-width: 100px;
+  position: relative;
+  top: -80px;
+  margin-left: 100px;
+  cursor: pointer;
+  transition-duration: 1s;
+  &:hover{
+  transition-duration: 1s;
+  opacity: 0.5;
+  }
 }

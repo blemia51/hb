@@ -1,4 +1,4 @@
-.App{
+.header{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -22,6 +22,7 @@
   }
   .subtitle{
     font-family: 'Quicksand';
+    text-transform: uppercase;
     color: white;
     position: relative;
     top: -98px;

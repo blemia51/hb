@@ -1,0 +1,32 @@
+.navigation{
+  width: 100%;
+  display: flex;
+  list-style: none;
+  color: white;
+  background-color:#8c0303;
+  margin: auto;
+  li{
+    padding: 12px 62px 12px 12px;
+    cursor: pointer;
+    &:hover{
+      //opacity: 0.5;
+      //transition-duration: 1s;
+      //border-bottom: solid 1px;
+      hr{
+        transition-duration: 0.5s;
+        opacity: 1;
+        width: 50px;
+        color: white;
+      }
+    }
+    a{
+      text-decoration: none;
+      color: white;
+    }
+    hr{
+      transition-duration: 0.5s;
+      width: 0px;
+      opacity: 0;
+    }
+  }
+}
