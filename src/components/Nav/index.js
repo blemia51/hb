@@ -1,11 +1,17 @@
 import React from 'react'
 
-export default function Nav() {
+
+
+export default function Nav(props) {
+
   return (
-    <div id='accueil'> 
+    <div > 
       <ul className='navigation'>
         <li>
-          <a href='#accueil'>Accueil</a>
+          <a onClick={ window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          })}>Accueil</a>
           <hr/>
         </li>
         <li>

@@ -1,17 +1,17 @@
 .navigation{
-  width: 100%;
   display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
   list-style: none;
   color: white;
   background-color:#8c0303;
   margin: auto;
+  z-index: 10;
   li{
     padding: 12px 62px 12px 12px;
     cursor: pointer;
     &:hover{
-      //opacity: 0.5;
-      //transition-duration: 1s;
-      //border-bottom: solid 1px;
       hr{
         transition-duration: 0.5s;
         opacity: 1;

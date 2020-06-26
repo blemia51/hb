@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: flex-start;
   background-image: url('../../../asset/img/Ubuntu-Wallpaper-linux-35142596-2560-1600.jpg');
-  margin: 0;
+  margin-top: 60px;
   padding: 0;
   
   .title{
@@ -28,5 +28,20 @@
     top: -98px;
     margin-left: 72px;
     
+  }
+  .social{
+    display: flex;
+    position: relative;
+    top:-80px;
+    img{
+      max-width: 48px;
+      margin-left: 60px;
+      cursor: pointer;
+      transition-duration: 0.25s;
+      &:hover{
+      transform: scale(1.025);
+      transition-duration: 0.25s;
+      }
+    }
   }
 }
