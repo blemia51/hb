@@ -13,5 +13,29 @@
 }
 .App{
   width: 100%;
+  .overlay{
+    max-width: 100%;
+    cursor: pointer;
+    .stack{
+      position: relative;
+      top: 200px;
+      display: none;
+    }
+    img{
+      max-width: 25%;
+      cursor: pointer;
+      transition-duration: 0.25s;
+    }
+    &:hover{
+      transform: scale(1.025);
+      transition-duration: 0.25s;
+      .stack{
+        max-width: 25%;
+        background-color: grey;
+        opacity: 0.3;
+        display: block;
+      }
+    }
+  }
 }
 

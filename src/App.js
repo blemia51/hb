@@ -2,6 +2,7 @@ import React from 'react';
 import './scss/app.scss';
 import Header from './components/Header/index'
 import Nav from './components/Nav/index'
+import screenEA from './asset/img/home-espace-autonomie.png'
 
 
 function App() {
@@ -15,6 +16,14 @@ function App() {
      </div>
      <div id='portfolio' style={{marginLeft:'18px', padding:'0px 12px 0px 12px'}}>
       <h2>Portfolio</h2>
+      <div className='overlay'>
+        <div className="stack">
+          <p>React</p>
+          <p>Gatsby</p>
+          <p>Strapi</p>
+        </div>
+        <img src={screenEA} style={{maxWidth:'25%'}}/>
+      </div>
      </div>
     </div>
   );
